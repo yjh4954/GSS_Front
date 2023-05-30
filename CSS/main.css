@@ -1,0 +1,188 @@
+.wrapper_first{
+    width : 1300px;
+    height: 500px;
+    border-color: blue;
+    border : 5px solid;
+    margin : 0 auto;
+    margin-bottom: 50px;
+}
+.add{
+    width: 700px;
+    height : 470px;
+    margin : 10px 10px;
+    border-color : blue;
+    border : 5px solid;
+    position : relative;
+    float: left;
+}
+.rank{
+    width: 550px;
+    height : 470px;
+    margin : 10px 10px;
+    border-color : blue;
+    border : 5px solid;
+    position : relative;
+    float: left;
+}
+.first_list{
+    list-style-type: none;
+}
+
+
+.wrapper_second{
+    width : 1300px;
+    height: 350px;
+    border-color: blue;
+    border : 5px solid;
+    margin : 0 auto;
+    margin-bottom: 30px;
+}
+
+.wrapper_third{
+    width : 1300px;
+    height: 100px;
+    border-color: blue;
+    border : 5px solid;
+    margin : 0 auto;
+    margin-bottom: 30px;
+}
+
+
+.slider__wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider__img{           /* 이미지 보이는 영역 */
+    position: relative;
+    width: 690px;
+    height: 460px;
+    overflow: hidden;
+}
+.slider__inner{         /* 이미지를 감싸고 있는 부모 : 움직이는 부분 */
+    display: flex;
+    flex-wrap: wrap;
+    width: 5040px;      /* 4000px --> 4800px  : 총이미지가 6개로 변경*/
+    height: 460px;
+    position: relative;
+}
+.slider {               /* 개별적인 이미지 */
+    position: relative;
+    width: 690px;
+    height: 450px;
+}
+.slider::before{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    background: rgba(0,0,0,0.4);
+    color:white;
+    padding: 5px 10px;
+}
+.slider:nth-child(1)::before{
+    content: '이미지1';
+}
+.slider:nth-child(2)::before{
+    content: '이미지2';
+}
+.slider:nth-child(3)::before{
+    content: '이미지3';
+}
+.slider:nth-child(4)::before{
+    content: '이미지4';
+}
+.slider:nth-child(5)::before{
+    content: '이미지5';
+}
+.slider:nth-child(6)::before{
+    content: '이미지1';
+}
+.slider__dot {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 20px;
+	margin: 2px;
+}
+
+.slider__dot .dot {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: rgba(0, 0, 0, 0.4);
+	border-radius: 50%;
+	text-indent: -9999px;
+	transition: all 0.3s;
+	margin: 5px;
+}
+
+.slider__dot .dot.active {
+	/* background: #000; */
+	color: rgb(187, 127, 255);
+	border-color: rgba(187, 127, 255, 0.6);
+	box-shadow: -1px 1px 2px aquamarine;
+	background: rgba(0, 0, 0, 0.4);
+	/* position: relative; */
+	transition: all 2s ease;
+}
+
+.slider__dot .dot.active {
+	/* background: #000; */
+	color: rgb(187, 127, 255);
+	border-color: rgba(187, 127, 255, 0.6);
+	box-shadow: -1px 1px 2px aquamarine;
+	position: relative;
+}
+
+.slider__dot .dot.active::after {
+	position: absolute;
+	top: 0%;
+	left: 00%;
+	/* transform: translate(-50%, -50%); */
+	content: '';
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: rgba(0,0,0,0);
+	z-index: -1;
+	border: 1px solid rgba(187, 127, 255, 0.6);
+	box-shadow: -1px 1px 10px aquamarine;
+	animation: rotate 3s linear infinite;
+	pointer-events: none; 
+
+}
+.slider__dot .dot.active::before {
+	position: absolute;
+	top: 0%;
+	left: 00%;
+	/* transform: translate(-50%, -50%); */
+	content: '';
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: rgba(0,0,0,0);
+	z-index: -1;
+	border: 1px solid  rgba(0, 162, 255, 0.534);
+	box-shadow: -1px 1px 10px rgba(0, 162, 255, 0.534);
+	animation: rotate2 7s linear infinite;
+	pointer-events: none; 
+
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(359deg);
+	}
+}
+@keyframes rotate2 {
+	0% {
+		transform: rotate(359deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
