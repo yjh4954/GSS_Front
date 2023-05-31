@@ -41,3 +41,28 @@ function autoPlay() {
         gotoSlider(intervalNum); // 슬라이더 이동함수에 변경된 인덱스 부여
     }, interval); // 언제? 3초마다 (ex_ 최초 로드시 0->1 되는 과정이 3초후에 일어남.)
 }
+var slides = document.querySelector('.wrapper_second .schedule'),
+            slide = document.querySelectorAll('.wrapper_second .schedule li'),
+            currentIdx = 0,
+            slideCount = slide.length,
+            slideWidth1 = 1250,
+            slideMargin = 63.2,
+            prevBtn = document.querySelector('.wrapper_second .prev'),
+            nextBtn = document.querySelector('.wrapper_second .next');
+
+        slides.style.width = (slideWidth1 + slideMargin) * 31 + 'px';
+
+        function moveSlide(num) {
+            slides.style.left = (slideWidth1 + slideMargin) * -num + "px";
+            currentIdx = num;
+        }
+        nextBtn.addEventListener('click', function () {
+            if (currentIdx < 31) {
+                moveSlide(currentIdx + 1);
+            }
+        });
+        prevBtn.addEventListener('click', function () {
+            if (currentIdx > 0) {
+                moveSlide(currentIdx - 1);
+            }
+        });

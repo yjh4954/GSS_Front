@@ -170,14 +170,18 @@ li{
 }
 
 .schedule{
-	margin-top: 40px;
 	width : 2500px;
 	padding : 0;
+	position: relative;
 }
 .schedule li{
-	margin-right: 10.5px;
 	float: left;
 }
+
+.wrapper_second{
+	overflow: hidden;
+}
+
 .wrapper_second a{
 	margin-top: 183px;
 }
@@ -185,9 +189,11 @@ li{
 	margin-left:1237px;
 }
 .wrapper_second p{
-	margin :20px 0 0 0;
-	height: 30px; 
+	margin : 22px 530px;
 	font-weight: bold; 
 	font-size:30px; 
-	text-align: center;
+
+}
+.wrapper_second img{
+	margin : 0 4px;
 }
