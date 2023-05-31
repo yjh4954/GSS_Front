@@ -170,9 +170,9 @@ li{
 }
 
 .schedule{
-	width : 2500px;
 	padding : 0;
 	position: relative;
+	transition: left 0.7s ease-out;
 }
 .schedule li{
 	float: left;
@@ -196,4 +196,42 @@ li{
 }
 .wrapper_second img{
 	margin : 0 4px;
+}
+
+.tab-schedule li{
+    list-style: none;
+    float : left;
+    }
+
+.tab-schedule li a {
+    display: block;
+    padding: 18px 34.5px;
+    height: 90px;
+    line-height: 22px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    color: #222;
+    float: left;
+    text-decoration: none;;
+    }
+.tab-schedule li a:hover {
+    color : #fff;
+    background: #990000;
+    text-decoration: none;
+} 
+
+.tab-schedule li a span {
+    display: block;
+}
+
+.wrapper_second{
+	margin-bottom: 50px;
+}
+
+.wrapper_third img{
+	width: 50px;
+}
+.tab-schedule{
+	margin-left: 20px;
 }

@@ -46,7 +46,7 @@ var slides = document.querySelector('.wrapper_second .schedule'),
             currentIdx = 0,
             slideCount = slide.length,
             slideWidth1 = 1250,
-            slideMargin = 63.2,
+            slideMargin = 63.15,
             prevBtn = document.querySelector('.wrapper_second .prev'),
             nextBtn = document.querySelector('.wrapper_second .next');
 
@@ -56,6 +56,7 @@ var slides = document.querySelector('.wrapper_second .schedule'),
             slides.style.left = (slideWidth1 + slideMargin) * -num + "px";
             currentIdx = num;
         }
+        
         nextBtn.addEventListener('click', function () {
             if (currentIdx < 31) {
                 moveSlide(currentIdx + 1);
