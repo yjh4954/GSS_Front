@@ -1,12 +1,15 @@
 #large {
-    min-width: 1030px;
+    min-width: 13px;
     margin: 0 auto;
+    border : 5px solid;
 }
 #container {
+    width: 1300px;
     overflow: hidden;
     margin: 0 auto;
     min-height: 800px;
     padding: 50px 0;
+    border : 5px solid;
 }
 
 #container aside {
@@ -14,12 +17,15 @@
     width: 175px;
     padding: 12px 0 0 14px;
     margin-right: 45px;
+    border : 5px solid;
 }
 
 #container #contents {
+    margin-right: 50px;
     position: relative;
     float: right;
     width: 838px;
+    border : 5px solid;
 }
 
 .tab-schedule {
@@ -31,7 +37,7 @@
 .tab-schedule li{
     list-style: none;
     float : left;
-    }
+}
 
 .tab-schedule li a {
     display: block;
@@ -63,4 +69,19 @@ li.on a {
 a img{
     border: 0;
     vertical-align: top;
+}
+
+.date-select{
+    border : 5px solid;
+}
+
+.tb1-type06{
+    border : 5px solid;
+    text-align: center;
+}
+
+th{
+    color:black;
+    background-color: #f5f5f5;
+    padding: 7px 5px;
 }
