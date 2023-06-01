@@ -1,0 +1,23 @@
+.select01 .btn_srch{
+    height: 26px;
+    border: 1px solid #990000;
+}
+
+input[type=text] {
+    height: 22px;
+    border: 1px solid #990000;
+    vertical-align: middle;
+}
+
+.boardPhoto li {
+    position: relative;
+    overflow: hidden;
+    height: 1%;
+    padding: 15px 14px 0;
+    line-height: 16px;
+    border-bottom: 1px solid #990000;
+}
+
+li ui{
+    list-style: none;
+}
