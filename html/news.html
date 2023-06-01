@@ -21,13 +21,7 @@
 <!--머리-->
     <div class="container">
       <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-        <a href="http://www.naver.com" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
-            <use xlink:href="#bootstrap" />
-          </svg>
-          <span class="fs-4" style="color : #990000; font-weight : 900!important; font-size: 40px!important; margin-left : 10px; margin-bottom : 2.9px">GSS</span>
-        </a>
-
+        <a href=""><img src="../img/GSS-1.png" style="width: 160px; height: 80px;"></a>
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
           <li><a href="http://www.naver.com" class="nav-link px-2 link-dark">일정/결과</a></li>
           <li><a href="#" class="nav-link px-2 link-dark">순위</a></li>
@@ -68,23 +62,55 @@
                     <option selected="selected" value="CT">내용</option>
                     <option selected="selected" value="WR">작성자</option>
                 </select>
-                <input type="image" name="SearchBar" id="SearchBar" class="btn_srch" alt="검색" 
-                src="https://lgcxydabfbch3774324.cdn.ntruss.com/KBO_IMAGE/KBOHome/resources/images/common/btn_board_srch.png">
+                <input name="SearchBar" type="text" id="SearchBar" class="inputTxt"title="검색어"  style="width: 400px;">
+                <button type="button" name="btnSearch" id="btnSearch" class="btn_srch"  style="color : #666666!; border-color : #c9cacf">검색</button>
             </div>
             <ul class="boardPhoto">
                 <li>
                     <span class="photo">
                         <a href="게시글로 이동">
-                            <img src="">
+                            <img src="../img/GSS.png">
                         </a>
                     </span>
                     <div class="txt">
-                        <strog><a href="게시글로 이동">제목</a></strog>
-                        <p> 글 내용 </p>
+                        <strog><a href="게시글로 이동">인사를 배워봅시다.</a></strog>
+                        <p> 안녕하세요 반갑습니다 하이 니하오 곤니찌와 봉쥬 앗살라말라이쿰 </p>
                     </div>
                 </li>
+
+                <li>
+                    <span class="photo">
+                        <a href="게시글로 이동">
+                            <img src="../img/initial-logo.jpg">
+                        </a>
+                    </span>
+                    <div class="txt">
+                        <strog><a href="게시글로 이동">내일의 날씨</a></strog>
+                        <p> 오늘은 비가 왔고 내일은 비가 안옵니다 </p>
+                    </div>
+                </li>
+
             </ul>
-            <div class="paging"></div>
+            <div class="paging">
+                <ul class="modal">
+                    <li><a herf="처음페이지로 이동" class="first">처음 페이지</a></li>
+                    <li><a herf="#" class="first">처음 페이지</a></li>
+                    <li><a herf="#" class="arrow left"> <<< </a></li>
+                    <li><a herf="#" class="active num">1</a></li>
+                    <li><a herf="#" class="num">2</a></li>
+                    <li><a herf="#" class="num">3</a></li>
+                    <li><a herf="#" class="num">4</a></li>
+                    <li><a herf="#" class="num">5</a></li>
+                    <li><a herf="#" class="num">5</a></li>
+                    <li><a herf="#" class="num">6</a></li>
+                    <li><a herf="#" class="num">7</a></li>
+                    <li><a herf="#" class="num">8</a></li>
+                    <li><a herf="#" class="num">9</a></li>
+                    <li><a herf="#" class="arrow right"> >>> </a></li>
+                    <li><a herf="#" class="last">끝 페이지</a></li>
+                </ul>
+
+            </div>
             
          </div>
 
