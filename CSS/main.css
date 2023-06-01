@@ -172,7 +172,7 @@ li{
 .schedule{
 	padding : 0;
 	position: relative;
-	transition: left 0.7s ease-out;
+	transition: 0.7s ease;
 }
 .schedule li{
 	float: left;
