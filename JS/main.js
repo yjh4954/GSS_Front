@@ -43,7 +43,7 @@ var slides = document.querySelector('.wrapper_second .schedule'),
             slide = document.querySelectorAll('.wrapper_second .schedule li'),
             currentIdx = 0,
             slideWidth1 = 1250,
-            slideMargin = 63.15,
+            slideMargin = 57,
             prevBtn = document.querySelector('.wrapper_second .prev'),
             nextBtn = document.querySelector('.wrapper_second .next');
 
