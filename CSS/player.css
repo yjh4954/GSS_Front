@@ -1,0 +1,10 @@
+.player_back{
+    width: 1300px;
+    height: 400px;
+    margin : 0 auto;
+}
+.player_back img{
+    width: 700px;
+    height: 395px;
+    margin : 0 300px;
+}
