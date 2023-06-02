@@ -1,0 +1,80 @@
+.yeardate {
+    width: 100%;
+    text-align: center;
+    margin-right: 10px;
+    height: 25px;
+    font-size: 14px;
+}
+.yeardate span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.date {
+    height: 25px;
+    font-size: 14px;
+}
+.date_prev {
+    margin-right: 10px;
+}
+.date_next {
+    margin-left: 10px;
+}
+
+.blind02 {
+    width: 0!important;
+    border: 0!important;
+    height: 0!important;
+}
+
+input{
+    font-size: 12px;
+    color:#333;
+}
+
+.compare{
+    margin-bottom: 20px;
+    border-color: #6b6b6b 5px;
+}
+
+.tData {
+    width: 100%;
+    float: left;
+    line-height: 13px;
+    margin-bottom: 20px;
+    table-layout: fixed;
+    border-top: 2px solid #6b6b6b;
+}
+.tData th {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;}
+
+.tData thead th {
+    height: 35px;
+    padding-top: 10px;
+    color: #333;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ddd;
+    font-weight: 700;
+    vertical-align: middle;
+    font-size: 14px;
+    text-align: center;
+}
+
+.tData tbody td{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.tData tbody tr {
+    height: 35px;
+    padding-top: 3px;
+    color: #4c4f55;
+    border-bottom: 1px solid #ddd;
+    font-weight: 700;
+    vertical-align: middle;
+    font-size: 12px;
+    text-align: center;
+}
+
+.tData {
+    
+}
