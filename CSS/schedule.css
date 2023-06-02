@@ -12,16 +12,7 @@
     
 }
 
-#container aside {
-    float: left;
-    width: 250px;
-    padding: 12px 0 0 14px;
-    margin-left: 20px;
-   
-}
-
 #container #contents {
-    margin-right: 90px;
     position: relative;
     float: right;
     width: 900px;

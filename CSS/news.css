@@ -1,18 +1,42 @@
+#container {
+    width: 1300px;
+    overflow: hidden;
+    margin: 0 auto;
+    min-height: 800px;
+    padding: 50px 0;
+    
+}
+
+#container aside {
+    float: left;
+    width: 250px;
+    padding: 12px 0 0 14px;
+    margin-left: 20px;
+   
+}
+
+#container #contents {
+    position: relative;
+    float: right;
+    width: 900px;   
+}
+
 .select01 .btn_srch{
     height: 26px;
     border: 1px solid #990000;
 }
 
 
-li ui{
+li {
     list-style: none;
 }
 
 
 .board {
     float: left;
-    width: 590px;
+    width: 700px;
     margin-right: 27px;
+    height: 1000px;
 }
 
 .boardSearch {
@@ -54,65 +78,3 @@ li ui{
     width: calc(100% - 169px);
 }
 
-.page{
-    text-align: center;
-    width: 50%;
-}
-
-.pagination{
-    list-style: none;
-    display: inline-block;
-    padding: 0;
-    margin-top: 20px;
-}
-
-.pagination li{
-    display: inline;
-    text-align: center;
-}
-
-.pagination a{
-    float: left;
-    display: block;
-    font-size: 14px;
-    text-decoration: none;
-    padding : 5px 12px;
-    color : #990000;
-    line-height: 1.5;
-}
-
-.first{
-    margin-right: 15px;
-}
-
-.last{
-    margin-left: 15px;
-}
-
-.first:hover, .last:hover, .left:hover, .right:hover{
-    color:#990000
-}
-
-.pagination a.active{
-    cursor: default;
-    color: #ffff;
-    outline: none;
-}
-
-.modal .num{
-    margin-left: 3px;
-    padding:0;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 100%;
-}
-
-.modal .num:hover{
-    background-color: #990000;
-    color: #ffff;
-}
-
-.modal .num.active, .modal .num:active{
-    background-color: ;
-}

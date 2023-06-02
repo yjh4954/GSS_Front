@@ -1,0 +1,75 @@
+.page{
+    border: #990000 100px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.paging{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.paging li{
+    
+    text-align: center;
+    color : #4c4f55;
+}
+
+.paging a{
+    float: left;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    padding : 5px 12px;
+    color : #4c4f55;
+    line-height: 1.5;
+}
+
+.first{
+    margin-right: 15px;
+}
+
+.last{
+    margin-left: 15px;
+}
+
+.first:hover, .last:hover, .left:hover, .right:hover{
+    color:#990000
+}
+
+.paging a.active{
+    cursor: default;
+    color: #ffff;
+    outline: none;
+}
+
+.paging .num{
+    margin-left: 3px;
+    padding:0;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 100%;
+}
+
+.paging .num:hover{
+    background-color: #4c4f55;
+    color: #ffff;
+}
+
+.paging .num.active {
+    background-color: #990000;
+    cursor: pointer;
+}
+
+.arrow-left{
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid blue;
+}
