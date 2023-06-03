@@ -3,6 +3,7 @@ p{
     font-size: 23px;
 }
 .player_back{
+    background-color: white;
     width: 1300px;
     height: 400px;
     border: 2px solid;
@@ -27,8 +28,22 @@ p{
     float: left;
 }
 .player{
-    margin : 220px 0 0 250px ;
+    margin : 260px 0 0 250px ;
 }
 .player p{
     margin-bottom: 5px;
+}
+.player-wrapper{
+    width: 1300px;
+    margin : 0 auto;
+}
+.player-record th, td{
+    padding : 8.5px 5px;
+	text-align: center;
+    border: 1px solid;
+    border-color: black;
+}
+.player-record table{
+    margin:0 auto;
+    background-color: white;
 }
