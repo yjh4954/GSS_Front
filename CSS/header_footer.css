@@ -8,6 +8,7 @@
 *{
   font-family:'GmarketSansMedium';
 }
+
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -20,6 +21,9 @@
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
         }
+      }
+      body{
+        background-color: #e0e0e0 !important;
       }
 
       .b-example-divider {
