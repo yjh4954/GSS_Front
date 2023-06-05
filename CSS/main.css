@@ -168,9 +168,11 @@ li{
 	padding : 0;
 	position: relative;
 	transition: left 1s ease-out;
+    
 }
 .schedule li{
 	float: left;
+    
 }
 
 .wrapper_second{
@@ -193,7 +195,7 @@ li{
 
 }
 .wrapper_second img{
-	margin : 0 4px;
+	margin : 0 10px 0 0;
 }
 
 .tab-schedule li{
@@ -235,4 +237,11 @@ li{
 .team_link{
     width : 1350px;
     margin : auto auto;
+}
+.schedule div{
+    background-color: #dee2e6 !important;
+    height: 70px;
+}
+.schedule p{
+    padding-top :15px;
 }
