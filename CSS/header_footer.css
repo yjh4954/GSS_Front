@@ -67,5 +67,8 @@
         margin-left: 20px;
         font-weight: 600!important;
       }
-
+      .btn-outline-primary{
+        --bs-btn-hover-bg : #990000 !important;
+        --bs-btn-color : #990000 !important;
+      }
     
