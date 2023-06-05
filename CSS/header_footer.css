@@ -71,4 +71,6 @@
         --bs-btn-hover-bg : #990000 !important;
         --bs-btn-color : #990000 !important;
       }
-    
+.nav{
+  margin-left : 160px
+}
