@@ -23,6 +23,9 @@
 }
 .rank_name {
     height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .wrapper_second{
@@ -236,6 +239,9 @@ li{
 	width: 60px;
     height: 48px;
 }
+.wrapper_third{
+    margin-bottom: 50px;
+}
 .team_link{
     width : 1350px;
     margin : auto auto;
@@ -247,3 +253,85 @@ li{
 .schedule p{
     padding-top :15px;
 }
+
+#hightlightZone {
+    margin-bottom: 150px;
+
+}
+
+
+.thumnail {
+    position: relative;
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 50px;
+}
+.thumnail img {
+    width: 250px;
+    height: 120px;
+}
+
+P{color:#666666}
+
+.movie-list li {
+    min-height: 26px;
+    margin: 4px 0 6px;
+    font-size: 16px;
+    color: #222;
+    font-weight: 700;
+    margin-left: 55px;
+}
+.movie-list li a {
+    display: block;
+    width: 206px; 
+    height: 102px;
+    position: relative;
+    border: 1px solid #ccc;
+}
+
+section{
+    width: 1300px;
+    height: 222px;
+    margin: auto;
+}
+
+.wrapping{
+    width: 1300px;
+    
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+ul {
+    display: block;
+    list-style:none;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    float: left;
+}
+
+.tit {
+    min-height: 26px;
+    margin: 4px 0 6px;
+    font-size: 16px;
+    color: #222;
+    font-weight: 700;
+}
+
+li a {
+    text-decoration: none;
+  }
