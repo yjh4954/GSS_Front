@@ -16,11 +16,13 @@
 }
 .rank{
     width: 550px;
-    height : 470px;
     margin : 10px 10px;
     border-color : blue;
     position : relative;
     float: left;
+}
+.rank_name {
+    height: 60px;
 }
 
 .wrapper_second{
@@ -126,7 +128,7 @@
 	}
 }
 .rank th, .rank td{
-    padding : 8.1px 15.4px;
+    padding : 6.1px 15.4px;
 	text-align: center;
 }
 .prev{
