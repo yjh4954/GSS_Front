@@ -2,7 +2,7 @@
     width : 1300px;
     height: 500px;
     border-color: blue;
-    border : 5px solid;
+    
     margin : 0 auto;
     margin-bottom: 50px;
 }
@@ -11,7 +11,6 @@
     height : 470px;
     margin : 10px 10px;
     border-color : blue;
-    border : 5px solid;
     position : relative;
     float: left;
 }
@@ -20,27 +19,23 @@
     height : 470px;
     margin : 10px 10px;
     border-color : blue;
-    border : 5px solid;
     position : relative;
     float: left;
 }
 
 .wrapper_second{
-    width : 1300px;
+    width : 1290px;
     height: 350px;
     border-color: blue;
-    border : 5px solid;
     margin : 0 auto;
     margin-bottom: 30px;
 }
 
 .wrapper_third{
-    width : 1300px;
+    background-color: #dee2e6;
     height: 100px;
     border-color: blue;
-    border : 5px solid;
     margin : 0 auto;
-    margin-bottom: 30px;
 }
 
 
@@ -70,11 +65,11 @@
 }
 .slider::before{
     position: absolute;
-    left: 5px;
-    top: 5px;
+    left: 1px;
+    top: 1px;
     background: rgba(0,0,0,0.4);
     color:white;
-    padding: 5px 10px;
+    padding: 1px 10px;
 }
 .slider:nth-child(1)::before{
     content: '이미지1';
@@ -110,7 +105,7 @@
 	border-radius: 50%;
 	text-indent: -9999px;
 	transition: all 0.3s;
-	margin: 5px;
+	margin: 1px;
 }
 
 
@@ -131,7 +126,7 @@
 	}
 }
 .rank th, .rank td{
-    padding : 8.5px 15.4px;
+    padding : 8.1px 15.4px;
 	text-align: center;
 }
 .prev{
@@ -173,9 +168,11 @@ li{
 	padding : 0;
 	position: relative;
 	transition: left 1s ease-out;
+    
 }
 .schedule li{
 	float: left;
+    
 }
 
 .wrapper_second{
@@ -183,10 +180,13 @@ li{
 }
 
 .wrapper_second a{
-	margin-top: 183px;
+	margin-top: 190px;
 }
 .wrapper_second .next{
-	margin-left:1237px;
+	margin-left:1230px;
+}
+.wrapper_second .prev{
+    margin-left:4px
 }
 .wrapper_second p{
 	margin : 22px 530px;
@@ -195,7 +195,7 @@ li{
 
 }
 .wrapper_second img{
-	margin : 0 4px;
+	margin : 0 10px 0 0;
 }
 
 .tab-schedule li{
@@ -205,10 +205,10 @@ li{
 
 .tab-schedule li a {
     display: block;
-    padding: 18px 34.5px;
+    padding: 18px 34.1px;
     height: 90px;
     line-height: 22px;
-    font-size: 15px;
+    font-size: 11px;
     font-weight: 700;
     text-align: center;
     color: #222;
@@ -219,6 +219,7 @@ li{
     color : #fff;
     background: #990000;
     text-decoration: none;
+    height: 100px;
 } 
 
 .tab-schedule li a span {
@@ -230,8 +231,17 @@ li{
 }
 
 .wrapper_third img{
-	width: 50px;
+	width: 60px;
+    height: 48px;
 }
-.tab-schedule{
-	margin-left: 20px;
+.team_link{
+    width : 1350px;
+    margin : auto auto;
+}
+.schedule div{
+    background-color: #dee2e6 !important;
+    height: 70px;
+}
+.schedule p{
+    padding-top :15px;
 }

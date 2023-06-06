@@ -8,6 +8,16 @@
     text-decoration: none;
     color: black;
 }
+.community_table a:hover{
+    color: #222;
+    font-weight: bold;
+    text-decoration: none;
+}
+.community_table a:visited{
+    color: #222;
+    font-weight: bold;
+    text-decoration: none;
+}
 
 .community_table tbody td{
     overflow: hidden;
@@ -38,6 +48,7 @@
     height: 100px;
     margin : 40px 0 0 0 ;
 border: 1px solid;
+border-color: gray;
 }
 
 .tab-schedule li a {
@@ -79,3 +90,10 @@ border: 1px solid;
 .tab-schedule{
     padding : 0;
 }
+.wrapper_third{
+    background-color: white;
+}
+.community_table th{
+    background-color: white;
+}
+
