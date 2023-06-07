@@ -48,7 +48,7 @@
     height: 100px;
     margin : 40px 0 0 0 ;
 border: 1px solid;
-border-color: gray;
+border-color: black;
 }
 
 .tab-schedule li a {
@@ -95,5 +95,6 @@ border-color: gray;
 }
 .community_table th{
     background-color: white;
+    border: 1px solid;
 }
 

@@ -28,8 +28,8 @@
 
 .tab-schedule li a {
     display: block;
-    padding: 21px 20px;
-    height: 80px;
+    padding: 20px 15.7px;
+    height: 98px;
     line-height: 22px;
     font-size: 15px;
     font-weight: 700;
@@ -67,9 +67,9 @@ a img{
 
 th{
     color:black;
-    background-color: #f5f5f5;
+    background-color:white;
     padding: 7px 5px;
-    width: 1300px;
+    width: 850px;
 }
 
 .date-select {
@@ -79,6 +79,25 @@ th{
 }
 .wrapper_third{
     border: 1px solid;
-    height: 82px;
-    width: 850px;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+.tb1-type06 th{
+    border: 1px solid;
+}
+.tb1-type06 .lasttr{
+    border-bottom: 1px solid;
+}
+.tb1-type06 tbody{
+    border-bottom: 1px solid;
+}
+.tb1-type06 tr{
+    height: 35px;
+}
+.wrapper_third img{
+    width: 50px;
+}
+.tab-schedule{
+    padding: 0;
 }
