@@ -47,3 +47,31 @@ p{
     margin:0 auto;
     background-color: white;
 }
+
+
+.graph_wrapper_wrapper{
+    background-color: white;
+    width : 1300px;
+    height : 1100px;
+    margin : 0 auto;
+}
+.graph_wrapper{
+    width: 600px;
+    float: left;
+    margin-left: 40px;
+}
+.graph{
+    height: 400px;
+    margin : 70px 0 70px 0;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.chart_p{
+    height: 100px;
+    background-color: #dee2e6;
+}
+.chart_p p{
+    padding-top: 16px;
+    font-size: 50px;
+    text-align: center;
+}

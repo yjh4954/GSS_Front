@@ -77,3 +77,8 @@ th{
     margin: 25px 0 10px;
     text-align: center;
 }
+.wrapper_third{
+    border: 1px solid;
+    height: 82px;
+    width: 850px;
+}
