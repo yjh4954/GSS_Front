@@ -47,8 +47,9 @@
     width : 100%;
     height: 100px;
     margin : 40px 0 0 0 ;
-border: 1px solid;
-border-color: gray;
+    border: 0px;
+    
+
 }
 
 .tab-schedule li a {
@@ -61,7 +62,7 @@ border-color: gray;
     text-align: center;
     color: #222;
     float: left;
-    text-decoration: none;;
+    text-decoration: none;
     }
 .tab-schedule li a:hover {
     color : #fff;

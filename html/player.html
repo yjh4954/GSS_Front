@@ -58,14 +58,25 @@
   <!--머리-->
 
   <div class="player-wrapper">
+    <div><h4 style="margin-top:30px; margin-bottom: 10px; font-size: 40px;">선수 상세 정보</h4></div>
     <div class="player_back">
+      <div class="graph" style="position: absolute; margin-left: 950px; margin-bottom: 300px;">
+        <canvas id="myChart2"></canvas>
+      </div>
+      <div class="name"><img src="../img/emblem/NC.png" height="70px" width="90px"> 윤정현 <p style="display: inline; font-size:20px;">| </p><p style="display: inline; font-size:20px; color: #03cd7a">SSG</p></div>
+      
       <div class="player_img">
         <img src="/img/강민성.jpg" alt="">
       </div>
+      
+      
       <div class="player">
-        <p>선수명 : 윤정현</p>
-        <p>생년월일 : 1998년 04월 21일</p>
-        <p>신장 : 999cm 99kg</p>
+        
+        
+        <div class="money" style=" border-top:10px solid #03cd7a ; border-bottom:3px solid #4c4f55 ;width: 630px ; height: 130px;text-align: center; margin-bottom: 7px; margin-top: -140px;"><p style="font-size:20px; display: inline;color:#222">이 선수는  </p><p style="font-size:50px;display: inline;color:#222">고평가<p style="font-size:20px;display: inline;color:#222">되었습니다</p><br><p style="font-size:15px;color:#222 ;display: inline;">現 연봉 : </p><p style="display: inline;">10,000,000,000원 </p></div>
+        <br>
+        <div class="birth" style="color:#4c4f55;"><p>1998. 04. 21.</p></div>
+        <div class="health" style="color:#4c4f55;"><p> 999cm | 99kg</p></div>
       </div>
     </div>
     <br>
@@ -136,9 +147,10 @@
     </div>
   </div>
   <br><br><br><br>
-  <div class="graph_wrapper_wrapper">
-    <div class="chart_p"><p>차트</p></div>
-    <div class="graph_wrapper">
+  <div class="player-wrapper">
+  <div><h4 style="margin-top:-10px; margin-bottom: 10px; font-size: 40px;">Record</h4></div>
+  <div class="graph_wrapper_wrapper" style = "background-color: white; border-top: 8px solid #3e3d55">
+    <div class="graph_wrapper" >
       <div class="graph">
         <canvas id="myChart1"></canvas>
       </div>
@@ -147,7 +159,7 @@
       </div>
     </div>
 
-    <div class="graph_wrapper">
+    <div class="graph_wrapper" >
       <div class="graph">
         <canvas id="myChart3"></canvas>
       </div>
@@ -156,7 +168,7 @@
       </div>
     </div>
   </div>
-
+</div>
 
 
 
