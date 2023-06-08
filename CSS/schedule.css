@@ -43,6 +43,9 @@
     background: #990000;
     text-decoration: none;
 } 
+.tab-schedule li a:active{
+    background: #990000;
+}
 
 .tab-schedule li a span {
     display: block;
