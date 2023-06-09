@@ -247,8 +247,8 @@ li{
     margin : auto auto;
 }
 .schedule div{
-    background-color: #dee2e6 !important;
-    height: 70px;
+    background-color: #dee2e6 ;
+
 }
 .schedule p{
     padding-top :15px;
@@ -339,3 +339,203 @@ li a {
  .slider__wrap{
     margin-top: 15px;
  }
+
+ .wrap {
+    position: relative;
+    width: 210px;
+    height: 250px;
+    border: 1px solid #e1e1e1;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+
+.daySchedule{
+    border: 2px solid #dee2e6 ; 
+    float: left; 
+    height: 250px !important ;
+    width: 248px;
+    margin-left: 10px;
+    background-color: white !important;
+}
+
+.daySchedule02{
+    border: 2px solid #dee2e6 ; 
+    float: left; 
+    height: 250px !important ;
+    width: 248px;
+    margin-left: 10px;
+    background-color: white !important;
+}
+
+
+
+
+.round {
+    height: 168px;
+    padding: 0 7px;
+    text-align: center;
+}
+
+.team1 {
+    float: left;
+    width: 66px;
+    text-align: center;
+    background-color: white !important;
+}
+.team2{
+    float: left;
+    width: 66px;
+    text-align: center;
+    background-color: white !important;
+}
+
+.vs {
+    float: left;
+    width: 19px;
+    margin: 10px 10px 0;
+    font-weight: 700;
+    font-size: 16px;
+    color: #1a1a1a;
+    background-color: white !important;
+}
+.vs02 {
+    float: left;
+    width: 19px;
+    margin: 23px 15px 0;
+    font-weight: 700;
+    font-size: 16px;
+    color: #1a1a1a;
+    background-color: white !important;
+}
+
+
+.score01 {
+    height: 21px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -1px;
+}
+
+.score02 {
+    height: 21px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -1px;
+}
+
+
+
+.emb01{
+    margin-left: 10px;
+    background-color: white !important;
+}
+
+.lose01{
+    height: 21px;
+    font-weight: 900;
+    font-size: 22px;
+    letter-spacing: -1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #ed1c24;
+}
+
+.lose02{
+    height: 21px;
+    font-weight:700;
+    font-size: 18px;
+    letter-spacing: -1px;
+    color: #ed1c24;
+}
+
+.win01{
+    height: 21px;
+    font-weight: 900;
+    font-size: 22px;
+    letter-spacing: -1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.win02{
+    height: 21px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -1px;
+    color: #00aeef;
+}
+.top span{
+    position: relative;
+    display: inline;
+    min-width: 32px;
+    margin: 0 6px;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+
+.top{
+        position: relative;
+        padding-top: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+        letter-spacing: -.7px;
+        background-color: #002561 !important; 
+    
+}
+
+.middle{
+    position: relative;
+    padding-top: 8px;
+    margin-bottom: 10px;
+    text-align: center;
+    letter-spacing: -.7px;
+    margin-left: 20px;
+    background-color: white !important;
+    
+}
+
+.middle02{
+    position: relative;
+    padding-top: 50px;
+    margin-bottom: 8px;
+    text-align: center;
+    letter-spacing: -.7px;
+    margin-left: 20px;
+    background-color: white !important;
+    
+}
+.bottom01 {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 4px;
+    border-radius: 15px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    background: black !important; 
+    margin-left: 70px;
+}
+
+.bottom02 {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 4px;
+    border-radius: 15px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    background: #00aeef !important; 
+    margin-left: 75px;
+}
+
+
+
+
+
