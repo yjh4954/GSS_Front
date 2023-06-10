@@ -76,24 +76,6 @@
     color:white;
     padding: 1px 10px;
 }
-.slider:nth-child(1)::before{
-    content: '이미지1';
-}
-.slider:nth-child(2)::before{
-    content: '이미지2';
-}
-.slider:nth-child(3)::before{
-    content: '이미지3';
-}
-.slider:nth-child(4)::before{
-    content: '이미지4';
-}
-.slider:nth-child(5)::before{
-    content: '이미지5';
-}
-.slider:nth-child(6)::before{
-    content: '이미지1';
-}
 .slider__dot {
 	position: absolute;
 	left: 50%;
